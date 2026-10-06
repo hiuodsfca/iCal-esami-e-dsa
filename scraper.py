@@ -86,7 +86,6 @@ def main():
         nome_corso = match_corso.group(1).strip() if match_corso else raw_insegnamento
         codice_corso = match_corso.group(2).strip() if (match_corso and match_corso.group(2)) else "CORSO"
 
-        # Parsing data e ora esame
         has_time = False
         if raw_ora:
             try:
@@ -97,7 +96,6 @@ def main():
         else:
             dt_esame = datetime.strptime(raw_data, "%d/%m/%Y").date()
 
-        # Parsing scadenza prenotazione
         scadenza_prenotazione = None
         pren_match = PRENOTAZIONE_REGEX.search(raw_prenotazione)
         if pren_match:
@@ -106,7 +104,7 @@ def main():
         base_id = f"{codice_corso}-{raw_data}-{prova}"
         now_ts = datetime.now(TZ_ROME)
 
-        # 1. Evento Esame effettivo
+        # 1. Evento Esame
         event_esame = Event()
         event_esame.add("uid", generate_uid(f"ESAME-{base_id}"))
         event_esame.add("summary", f"Esame {nome_corso}")
@@ -122,7 +120,7 @@ def main():
         cal.add_component(event_esame)
         eventi_creati += 1
 
-        # 2. Evento Scadenza DSA (15 giorni lavorativi antecedenti)
+        # 2. Evento Scadenza DSA
         data_base = dt_esame.date() if has_time else dt_esame
         data_dsa = calcola_scadenza_dsa(data_base)
 
@@ -146,9 +144,8 @@ def main():
             cal.add_component(event_iscr)
             eventi_creati += 1
 
-    # Protezione anti-svuotamento: blocca l'esecuzione se non trova esami
     if eventi_creati == 0:
-        print("Nessun evento generato: possibile anomalia nel portale. Interrompo senza sovrascrivere il calendario.")
+        print("Nessun evento generato: possibile anomalia nel portale. Interrompo.")
         sys.exit(1)
 
     with open("appelli_liuc.ics", "wb") as f:
@@ -159,103 +156,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    if response.encoding.lower() in ("iso-8859-1", "ascii"):
-        response.encoding = "iso-8859-1"
-        
-    soup = BeautifulSoup(response.text, "lxml")
-    tabella = soup.find("table", class_="tabella")
-    if not tabella:
-        raise ValueError("Tabella non trovata")
-
-    cal = Calendar()
-    cal.add('prodid', '-//Scraper Esami LIUC//Andrea V.//IT')
-    cal.add('version', '2.0')
-    cal.add('x-wr-calname', 'Appelli Ingegneria Gestionale (2° Anno)')
-    cal.add('x-wr-timezone', 'Europe/Rome')
-
-    righe = tabella.find_all("tr", class_=re.compile(r"myTb[12]"))
-
-    for riga in righe:
-        celle = riga.find_all("td")
-        if len(celle) < 5:
-            continue
-
-        raw_insegnamento = celle[0].get_text(strip=True)
-        prova = celle[1].get_text(strip=True)
-        raw_data = celle[2].get_text(strip=True)
-        raw_ora = celle[3].get_text(strip=True)
-        raw_prenotazione = celle[4].get_text(strip=True)
-
-        match_corso = CORSO_REGEX.match(raw_insegnamento)
-        nome_corso = match_corso.group(1).strip() if match_corso else raw_insegnamento
-        codice_corso = match_corso.group(2).strip() if match_corso and match_corso.group(2) else "Sconosciuto"
-
-        # 1. Parsing Data Esame
-        has_time = False
-        dt_esame = None
-        if raw_data:
-            if raw_ora:
-                try:
-                    dt_esame = datetime.strptime(f"{raw_data} {raw_ora}", "%d/%m/%Y %H:%M").replace(tzinfo=TZ_ROME)
-                    has_time = True
-                except ValueError:
-                    dt_esame = datetime.strptime(raw_data, "%d/%m/%Y").date()
-            else:
-                dt_esame = datetime.strptime(raw_data, "%d/%m/%Y").date()
-
-        if not dt_esame:
-            continue # Salta se non c'è una data
-
-        # 2. Parsing Prenotazione
-        scadenza_prenotazione = None
-        pren_match = PRENOTAZIONE_REGEX.search(raw_prenotazione)
-        if pren_match:
-            scadenza_prenotazione = datetime.strptime(pren_match.group(2), "%d/%m/%Y").date()
-
-        # --- CREAZIONE EVENTI ICAL ---
-        base_id = f"{codice_corso}-{raw_data}-{prova}"
-
-        # Evento A: L'Esame
-        event_esame = Event()
-        event_esame.add('uid', generate_uid(f"ESAME-{base_id}"))
-        event_esame.add('summary', f"Esame {nome_corso}")
-        event_esame.add('description', f"Prova: {prova}")
-        event_esame.add('dtstamp', datetime.now(TZ_ROME))
-        
-        if has_time:
-            event_esame.add('dtstart', dt_esame)
-            event_esame.add('dtend', dt_esame + timedelta(hours=1)) # Dura 1 ora di default
-        else:
-            event_esame.add('dtstart', dt_esame) # Evento tutto il giorno
-            
-        cal.add_component(event_esame)
-
-        # Evento B: Scadenza DSA (15 gg lavorativi prima)
-        data_base_calcolo = dt_esame.date() if has_time else dt_esame
-        data_dsa = calcola_scadenza_dsa(data_base_calcolo)
-        
-        event_dsa = Event()
-        event_dsa.add('uid', generate_uid(f"DSA-{base_id}"))
-        event_dsa.add('summary', f"Scadenza DSA: {nome_corso}")
-        event_dsa.add('description', f"Ultimo giorno utile per inviare la richiesta di misure equipollenti per la prova: {prova}.")
-        event_dsa.add('dtstart', data_dsa)
-        event_dsa.add('dtstamp', datetime.now(TZ_ROME))
-        cal.add_component(event_dsa)
-
-        # Evento C: Scadenza Iscrizione
-        if scadenza_prenotazione:
-            event_iscr = Event()
-            event_iscr.add('uid', generate_uid(f"ISCR-{base_id}"))
-            event_iscr.add('summary', f"Scadenza Iscrizione: {nome_corso}")
-            event_iscr.add('description', f"Ultimo giorno per iscriversi alla prova: {prova}.")
-            event_iscr.add('dtstart', scadenza_prenotazione)
-            event_iscr.add('dtstamp', datetime.now(TZ_ROME))
-            cal.add_component(event_iscr)
-
-    # Scrive il file su disco
-    with open('appelli_liuc.ics', 'wb') as f:
-        f.write(cal.to_ical())
-    print("Calendario generato con successo: appelli_liuc.ics")
-
-if __name__ == "__main__":
-    genera_calendario()
