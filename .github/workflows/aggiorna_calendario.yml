@@ -1,0 +1,41 @@
+name: Aggiorna Calendario Esami LIUC
+
+on:
+  schedule:
+    # Esegue ogni 4 ore (6 volte al giorno): 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
+    - cron: '0 0,4,8,12,16,20 * * *'
+  workflow_dispatch: # Permette di far partire lo script manualmente dal sito GitHub
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    # Permessi necessari per pushare il file aggiornato nel repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout del repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa le dipendenze
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml icalendar tzdata
+
+      - name: Esegui lo scraper
+        run: python scraper.py
+
+      - name: Commit e Push se ci sono modifiche
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add appelli_liuc.ics
+          
+          # Se il file è cambiato, fa il commit, altrimenti non fa nulla e non dà errore
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: sincronizzazione calendario esami" && git push)
