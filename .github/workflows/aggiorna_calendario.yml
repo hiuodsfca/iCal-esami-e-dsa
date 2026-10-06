@@ -1,41 +1,54 @@
-name: Aggiorna Calendario Esami LIUC
+name: Aggiornamento Calendario Esami LIUC
 
 on:
+  workflow_dispatch:
   schedule:
-    # Esegue ogni 4 ore (6 volte al giorno): 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
-    - cron: '0 0,4,8,12,16,20 * * *'
-  workflow_dispatch: # Permette di far partire lo script manualmente dal sito GitHub
+    # 6 esecuzioni al giorno ai minuti :17 (evita code dei runner al minuto :00)
+    - cron: '17 0,4,8,12,16,20 * * *'
 
 jobs:
-  scrape-and-update:
+  update-calendar:
     runs-on: ubuntu-latest
-    
-    # Permessi necessari per pushare il file aggiornato nel repo
+
     permissions:
       contents: write
 
     steps:
-      - name: Checkout del repository
+      # 1. Checkout esplicito con GITHUB_TOKEN per triggerare il deploy automatico di GitHub Pages
+      - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
-      - name: Setup Python
+      # 2. Setup ambiente Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Installa le dipendenze
+      # 3. Installazione dipendenze minime richieste
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml icalendar tzdata
 
-      - name: Esegui lo scraper
+      # 4. Esecuzione Scraper (se fallisce, il workflow si arresta qui senza toccare il file .ics)
+      - name: Run Scraper and Generate ICS
         run: python scraper.py
 
-      - name: Commit e Push se ci sono modifiche
+      # 5. Commit e Push sincronizzato con rebase
+      - name: Commit and Push new ICS file
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
           git add appelli_liuc.ics
-          
-          # Se il file è cambiato, fa il commit, altrimenti non fa nulla e non dà errore
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: sincronizzazione calendario esami" && git push)
+
+          if git diff --staged --quiet; then
+            echo "Nessuna variazione negli appelli o nelle scadenze. Salto il commit."
+          else
+            git commit -m "Auto-update: Sincronizzazione appelli esami e scadenze"
+            git pull --rebase origin main
+            git push
+          fi
