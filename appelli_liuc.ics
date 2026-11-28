@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Basics of Electrical and Electronic Engineering
 DTSTART;TZID=Europe/Rome:20270121T140000
 DTEND;TZID=Europe/Rome:20270121T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:21c83a0dff1f58f723a05b0100cdce2df8732cfafcec7d69d71a99f06b1f94de@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -15,7 +15,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Basics of Electrical and Electronic Engineering
 DTSTART;VALUE=DATE:20261231
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e8320003afb8471a94bab54b860e57e9b94f0a948363103fec34d4b07fd563c8@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Basics of Electrical and Electronic Engineeri
  ng
 DTSTART;VALUE=DATE:20270117
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:38482c811adceccff2b5701b0234f3c893ad84b5cf2e2ec9c45e3e1a7721079f@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Business Decision Making I
 DTSTART;TZID=Europe/Rome:20261211T093000
 DTEND;TZID=Europe/Rome:20261211T103000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:1ed1ce23c9d0be3f70e37ae19df5f983fa53faf8afa4a9f34de94a634d13ae7a@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Business Decision Making I
 DTSTART;VALUE=DATE:20261120
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:76c78ec30f46450b570668fa39428a9cb496508f1794917f4c45953ccaa08f66@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -51,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Business Decision Making I
 DTSTART;VALUE=DATE:20261207
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:595315f163263135aefd8bf9fcac8712e595fc33faddff25737f312185c4b855@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Business Decision Making I
 DTSTART;TZID=Europe/Rome:20270201T090000
 DTEND;TZID=Europe/Rome:20270201T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:543d77051b1210ccf4d5cb9a96f894b652ee36467e066f2b29785a09de7569d2@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -68,7 +68,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Business Decision Making I
 DTSTART;VALUE=DATE:20270111
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:ec2eba39c783afda99abf83ec5226fb1083e3e863a3f1c567fa1a1d523d060a1@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -77,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Business Decision Making I
 DTSTART;VALUE=DATE:20270128
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c72a90f68e86820b913a53b9e009fbdfd947d2240a82083d7f8b4a62ec060053@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -86,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Business Decision Making II
 DTSTART;TZID=Europe/Rome:20261215T140000
 DTEND;TZID=Europe/Rome:20261215T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:79bf9000a30b285c3e54b468ecd7c6bbd79b0604f15bf59726c1a1a39083d788@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -94,7 +94,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Business Decision Making II
 DTSTART;VALUE=DATE:20261124
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e079e7c33aef1d680aacb657f8e01814421c72c6fd3a1536852a8ff90477dd81@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -103,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Business Decision Making II
 DTSTART;VALUE=DATE:20261211
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:4ed80e11c01692bfba9a49ab3acde832edaac94a0e04af157b2fec5b795cb7ba@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -112,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Business Decision Making II
 DTSTART;TZID=Europe/Rome:20270208T153000
 DTEND;TZID=Europe/Rome:20270208T163000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:79dd692373c0d5d45d9f7ee2ce872b58624bde3796da6a3dc3576ffbccb9fd16@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Business Decision Making II
 DTSTART;VALUE=DATE:20270118
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:810ff4abe9310a3f0eaa5d8c2476dbaaf1319819e4c255a3dd8b8328260a51a1@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -129,7 +129,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Business Decision Making II
 DTSTART;VALUE=DATE:20270204
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:d85056510dac3fd00a967930e0a2523fb178d3ff82f788ea45a2cee0c3382821@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -138,7 +138,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;TZID=Europe/Rome:20261204T140000
 DTEND;TZID=Europe/Rome:20261204T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a10af0da1df1b3047623e2b9e9a017fbcce44e9aeb1a5578345b103c2c52b4eb@liuc-
  scraper.local
 DESCRIPTION:Prova: appello SCRITTO
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261113
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:717e3aaed2b814e445d4229b64d3b1bd048ce00462c04f56f5251acf1bdb450f@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -155,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261130
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:484db2917091f39a5ccd53e17fc93ca7d655eca82f63efca909087678263bd16@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello SCRI
@@ -165,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;TZID=Europe/Rome:20261210T140000
 DTEND;TZID=Europe/Rome:20261210T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:9686622ab1b56c9ab066137d09cf7225b08153509a8546dabe6e60870240e141@liuc-
  scraper.local
 DESCRIPTION:Prova: appello ORALE
@@ -173,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261119
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:646816b9d334df97574e8740c5e9db235f2327aa564cd1605f0241ffa5b56822@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -182,7 +182,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261206
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:d3db30fae96125ceeb445b9dd8ad0552baf9e59aba56d1b32b09ed4a0bb51dc0@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello ORAL
@@ -191,7 +191,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261210
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:bcdf9e27446b4fdc9071f9b841a053268a806da3326eb826c779dd0b9fd83723@liuc-
  scraper.local
 DESCRIPTION:Prova: Registrazione Voti
@@ -199,7 +199,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261119
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:b26d39b71c859a5d0a37d3417ff73438541c3efbc486c93c58b8f7124a5fe1de@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -208,7 +208,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261209
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:18e1a89f192c3187c88a0806b5688a71d35df5f61e77cef5554920e6a147ab92@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: Registrazion
@@ -218,7 +218,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;TZID=Europe/Rome:20270112T090000
 DTEND;TZID=Europe/Rome:20270112T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:5705ceb0abab20054f20801792ea83ece573652a71382ec96174f89c1714666a@liuc-
  scraper.local
 DESCRIPTION:Prova: appello SCRITTO
@@ -226,7 +226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261222
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:6cb16dcde29d51237f6bec5c2228a28edeb87757bb77410db77abc894d0b0e37@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -235,7 +235,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270108
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c5a44fc842fd6c224d4c2961b3bbbd8808328487ff056c9e4ad06edb76ff4dc6@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello SCRI
@@ -245,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;TZID=Europe/Rome:20270119T090000
 DTEND;TZID=Europe/Rome:20270119T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:ad4692eb841befed70247a27d52d7c4c24fbf455b5df1045e3c00a1750d240bc@liuc-
  scraper.local
 DESCRIPTION:Prova: appello ORALE
@@ -253,7 +253,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261229
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:92723a29f15927dc7e61b1582f236ff94b92da806966cbde22a1238b95d45654@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -262,7 +262,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270115
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:55b96d8693dde460db01ddde6c5557ae196491c3926db0a9c42eec025d3a0516@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello ORAL
@@ -271,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270119
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a4f915500fbe3d7cb58d1865896908299d929afcf8ab62e9823668d39e7fadd3@liuc-
  scraper.local
 DESCRIPTION:Prova: Registrazione Voti
@@ -279,7 +279,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20261229
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:bd162d04dcdfb6da27ae054e1c7ace46bef6c3aabd9faef5461bb0063467382a@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -288,7 +288,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270115
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:3f34e2457e90a3b191dbd7f88f42b8f353e4d7fbf2c79d8dba7a94281cf5971f@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: Registrazion
@@ -298,7 +298,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;TZID=Europe/Rome:20270203T090000
 DTEND;TZID=Europe/Rome:20270203T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c0a41fab156a50bfb3fef3d0a188d26a993342d0a0f68139f23a4dc78953dd01@liuc-
  scraper.local
 DESCRIPTION:Prova: appello SCRITTO
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270113
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:0123f79ada1b40603be95c5f45a6091f2139d8d61927ea36ed9050d208a16f13@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -315,7 +315,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270130
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:9be8884166cd2565a44d5d9d4b920b64fd1a2cc5c73db6e4ece37e2383be5d37@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello SCRI
@@ -325,7 +325,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;TZID=Europe/Rome:20270209T090000
 DTEND;TZID=Europe/Rome:20270209T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:798bfa134c51bd365d243f72c2b70d6d47f714d3cc852e2acab0df38eee81670@liuc-
  scraper.local
 DESCRIPTION:Prova: appello ORALE
@@ -333,7 +333,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270119
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:074d75cfb8dc7cff61f7ee55c23086e69841c6d7a3c1a037e5803721a8dec0bf@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -342,7 +342,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270205
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e75a8ab125f7e9c3f23c0ef15180d12804b0f917f5d2c71f469bfd36d178cd76@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello ORAL
@@ -351,7 +351,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270209
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:7862b6d65f26dfa2909595ac022f096dbf1f1da0e77093c0efc04f75644f8a62@liuc-
  scraper.local
 DESCRIPTION:Prova: Registrazione Voti
@@ -359,7 +359,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270119
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e98b7e7c88d5a0da604c1bc6008be2a4533352a8ef1d1ed6a0734b6f504dc94b@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -368,7 +368,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa A: Modelli e Strumenti
 DTSTART;VALUE=DATE:20270205
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:531f490ad8987d40e66ea608456c9512749122681d8f68ec43600fa6df2fc2ae@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: Registrazion
@@ -379,7 +379,7 @@ SUMMARY:Esame Decisioni di Impresa B: Analisi della Competizione e del Mer
  cato
 DTSTART;TZID=Europe/Rome:20270128T090000
 DTEND;TZID=Europe/Rome:20270128T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:5af15360463336b4d334eb123bae43d822adff4567ac7d2de5f774b237b426fb@liuc-
  scraper.local
 DESCRIPTION:Prova: appello MINELLI
@@ -388,7 +388,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa B: Analisi della Competizione e
   del Mercato
 DTSTART;VALUE=DATE:20270107
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:3da1259623a1a066d30b359d92ddfe7279b4faba9e52a3c71969701d3b4f093b@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -398,7 +398,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa B: Analisi della Competi
  zione e del Mercato
 DTSTART;VALUE=DATE:20270124
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:4beb9dda7fbfc7efd306e6e51192cfe520316c2cd5757be3ca501ffd2e44fa00@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello MINE
@@ -409,7 +409,7 @@ SUMMARY:Esame Decisioni di Impresa B: Analisi della Competizione e del Mer
  cato
 DTSTART;TZID=Europe/Rome:20270129T090000
 DTEND;TZID=Europe/Rome:20270129T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:720688e9ccc1bcc8873e9c89b87d4a0a0dd28c10d5508380ce6f1c55369b6171@liuc-
  scraper.local
 DESCRIPTION:Prova: appello URBINATI
@@ -418,7 +418,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa B: Analisi della Competizione e
   del Mercato
 DTSTART;VALUE=DATE:20270108
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:d00687de24a09b329350e3dc071a1282a4bc8df5cac1acf326fbd3e40ef3ba0b@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -428,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa B: Analisi della Competi
  zione e del Mercato
 DTSTART;VALUE=DATE:20270125
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:75db6c4b8516076312e5e38c61ac6b0e3885ad08aac8e5571cee7eda783ed448@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello URBI
@@ -438,7 +438,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa B: Analisi della Competizione e del Mer
  cato
 DTSTART;VALUE=DATE:20270129
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:8d4aa854109cd37dd586fe97ba20599f612a884a043d34ff33eab3d872311296@liuc-
  scraper.local
 DESCRIPTION:Prova: Registrazione Voti
@@ -447,7 +447,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa B: Analisi della Competizione e
   del Mercato
 DTSTART;VALUE=DATE:20270108
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:caeeb12d44d81925f2f34c1b09bd1f468ba601e207162809ef6ad5af0d1f48d8@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -457,7 +457,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa B: Analisi della Competi
  zione e del Mercato
 DTSTART;VALUE=DATE:20270125
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:2385fff3cedab9aff72a7e66c1937dfd1a663617b04b8a045994a696bdd31f22@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: Registrazion
@@ -468,7 +468,7 @@ SUMMARY:Esame Decisioni di Impresa B: Analisi della Competizione e del Mer
  cato
 DTSTART;TZID=Europe/Rome:20270218T090000
 DTEND;TZID=Europe/Rome:20270218T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c3326cc0202ee468bdd6ea12a53e342476eacb1720e2c5ad1a8f62e76df5edb7@liuc-
  scraper.local
 DESCRIPTION:Prova: appello MINELLI
@@ -477,7 +477,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa B: Analisi della Competizione e
   del Mercato
 DTSTART;VALUE=DATE:20270128
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:f53c5b2a7907c8b0ad8afabf4e06ad2ea5c7a1e7671ff9563a934be24a48770b@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -487,7 +487,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa B: Analisi della Competi
  zione e del Mercato
 DTSTART;VALUE=DATE:20270214
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c5bcab8b8b43ed7b83036af4daddb77302e1bd9df9c1e0261f9cdd07a3a30161@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello MINE
@@ -498,7 +498,7 @@ SUMMARY:Esame Decisioni di Impresa B: Analisi della Competizione e del Mer
  cato
 DTSTART;TZID=Europe/Rome:20270219T083000
 DTEND;TZID=Europe/Rome:20270219T093000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:dfd2ac20f37c4f835dde3fd811624eae0b844b8477afb4d3da2c3d176205a8d5@liuc-
  scraper.local
 DESCRIPTION:Prova: appello URBINATI
@@ -507,7 +507,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa B: Analisi della Competizione e
   del Mercato
 DTSTART;VALUE=DATE:20270129
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:6295ad20ab2e51689f1d8347152f8ebb41559ae4199d860008e830fa7488853c@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -517,7 +517,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa B: Analisi della Competi
  zione e del Mercato
 DTSTART;VALUE=DATE:20270215
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a80591742865b7f8a0c01f90a0f1141262711d070726f48b632db1553bafd4ba@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello URBI
@@ -527,7 +527,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Decisioni di Impresa B: Analisi della Competizione e del Mer
  cato
 DTSTART;VALUE=DATE:20270219
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:8117a591e9d38d57c288ec86b2fb4b9965ccb97330863bc163a77243907d5783@liuc-
  scraper.local
 DESCRIPTION:Prova: Registrazione Voti
@@ -536,7 +536,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Decisioni di Impresa B: Analisi della Competizione e
   del Mercato
 DTSTART;VALUE=DATE:20270129
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:f7a40b31ffcd46c5644e511ab83d12c14d5258680243a88b447404a599fb864d@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -546,7 +546,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Decisioni di Impresa B: Analisi della Competi
  zione e del Mercato
 DTSTART;VALUE=DATE:20270215
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:4d31ebb20a489062ace14412c9dfbf5d887f55075790f55a5201ded35c33dd12@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: Registrazion
@@ -556,7 +556,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Fondamenti di Automatica
 DTSTART;TZID=Europe/Rome:20270126T083000
 DTEND;TZID=Europe/Rome:20270126T093000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:32f4e5aafa108b2523c3942833a3dd4228534907527af0252c1521e27fab6b96@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -564,7 +564,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Fondamenti di Automatica
 DTSTART;VALUE=DATE:20270105
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a978cf30644f99792b6b9bb4bc2191b54363221da3facc007f70ee57bb51736a@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -573,7 +573,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Fondamenti di Automatica
 DTSTART;VALUE=DATE:20270122
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:916224abb719b817633b932272e6e96a874e31943ca17acd6996281eec103075@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -582,7 +582,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Fondamenti di Ingegneria Elettrica ed Elettronica
 DTSTART;TZID=Europe/Rome:20270121T090000
 DTEND;TZID=Europe/Rome:20270121T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:dcb3a621928b5e6b06aeba47e0e0baa5c27d0c5b1b669bb8df322114616542db@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -590,7 +590,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Fondamenti di Ingegneria Elettrica ed Elettronica
 DTSTART;VALUE=DATE:20261231
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:aefbfb4e68e50b0025bc985980e37b57867fcbfb93a79bba30585f84f2aa259a@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -600,7 +600,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Fondamenti di Ingegneria Elettrica ed Elettro
  nica
 DTSTART;VALUE=DATE:20270117
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a45e06b61cc6e7883496b28031e9eee74ae8579694f8850e87007869605bad97@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -609,7 +609,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Gestione della Produzione
 DTSTART;TZID=Europe/Rome:20270118T140000
 DTEND;TZID=Europe/Rome:20270118T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e60e6d383f380bf146b4c793f199850a34976ec68fca46212879a4ac1518015a@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -617,7 +617,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Gestione della Produzione
 DTSTART;VALUE=DATE:20261228
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:ff81d276726878042b5f860b405e8953808f017e4c614d0f2f7b696c895795eb@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -626,7 +626,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Gestione della Produzione
 DTSTART;VALUE=DATE:20270114
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c00d497d3ccdd7c0511be755da803c5e3fd85b3dd3672a726c6addcdde433a2c@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -635,7 +635,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Gestione dell'Informazione
 DTSTART;TZID=Europe/Rome:20270122T083000
 DTEND;TZID=Europe/Rome:20270122T093000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:2d4aa9a5030bc5d02b831f9ede7c7d22f19cb98311ca8bbdc0db847719f4019f@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -643,7 +643,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Gestione dell'Informazione
 DTSTART;VALUE=DATE:20270101
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:77d09ced7da96820023d42229ec2a00bd26975b0a7ae9ddcbfab7772998626c5@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -652,7 +652,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Gestione dell'Informazione
 DTSTART;VALUE=DATE:20270118
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:53e5e77b3e1099e64550eccc6eaaec6755ccdcadfa7db75889c18db63d537959@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -661,7 +661,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Information Structure and Management
 DTSTART;TZID=Europe/Rome:20270120T083000
 DTEND;TZID=Europe/Rome:20270120T093000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:2d82c4f6e9b906b7a0edfe744cccc816f68b9795ab82a9f9b6d80f41bd3d8cd9@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -669,7 +669,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Information Structure and Management
 DTSTART;VALUE=DATE:20261230
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:90df2a0476d33c2bac9891b18399e301d6ce5ad030b5065baed425318891f5c1@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -678,7 +678,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Information Structure and Management
 DTSTART;VALUE=DATE:20270116
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:bbb9486dbb1e4ac4a922d926669e8123b6a39ed574db571f34b4c670e97d5189@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -688,7 +688,7 @@ SUMMARY:Esame Operations Management negli Ospedali: governare i processi c
  omplessi e ottimizzare le performance
 DTSTART;TZID=Europe/Rome:20270114T143000
 DTEND;TZID=Europe/Rome:20270114T153000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:65dca581f51e1e0bd39a5e4571a3cb80de5f72ce2dfa7ea1c80f1de7accc2248@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -697,7 +697,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Operations Management negli Ospedali: governare i pr
  ocessi complessi e ottimizzare le performance
 DTSTART;VALUE=DATE:20261224
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:43563febeeb78222194744506539d7161b66af61a00bbc8337ab2f54db301edb@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -707,7 +707,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Operations Management negli Ospedali: governa
  re i processi complessi e ottimizzare le performance
 DTSTART;VALUE=DATE:20270110
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:0132ebd5f7a37d5a989f96cd7d3ba2eb75ebedcf0821d7867325cab1c9092144@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -717,7 +717,7 @@ SUMMARY:Esame Operations Management negli Ospedali: governare i processi c
  omplessi e ottimizzare le performance
 DTSTART;TZID=Europe/Rome:20270204T143000
 DTEND;TZID=Europe/Rome:20270204T153000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:2d40bfbe3a33a7cacf1eb572ab5b3d373c2841332b9fd69a28dae289311204e0@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -726,7 +726,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Operations Management negli Ospedali: governare i pr
  ocessi complessi e ottimizzare le performance
 DTSTART;VALUE=DATE:20270114
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a50a6009d4b76c851a4633febd310c7088bfd855c7140813e10b7bfa93beab55@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -736,7 +736,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Operations Management negli Ospedali: governa
  re i processi complessi e ottimizzare le performance
 DTSTART;VALUE=DATE:20270131
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:9223693531b3f757a759443374d91c7d71e9fc943d598ef9083358cd3f43cbde@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -745,7 +745,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Operations Research
 DTSTART;TZID=Europe/Rome:20261218T140000
 DTEND;TZID=Europe/Rome:20261218T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:5e5f7738d968e507879a1b40770cb4495fc179add44e9b46773bfab0331b17af@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -753,7 +753,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Operations Research
 DTSTART;VALUE=DATE:20261127
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:9b784d91062db8260311f05558a817b1fea76cdf3e71caadcc20d2a2978c8935@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -762,7 +762,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Operations Research
 DTSTART;VALUE=DATE:20261214
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:bd2bb6a3c4fa80d26b5653f8bc6174d0c2e5cf6a5375f5b21e82ae876a24b799@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -771,7 +771,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Operations Research
 DTSTART;TZID=Europe/Rome:20261218T140000
 DTEND;TZID=Europe/Rome:20261218T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:deeb8a204eca39cab338ab660ecf44aec2e0cc161ff4003d25562a8dd27c421e@liuc-
  scraper.local
 DESCRIPTION:Prova: exam - second part
@@ -779,7 +779,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Operations Research
 DTSTART;VALUE=DATE:20261127
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:2e18e0223d5017b9184680bff3d894d56d317d3dc40cec7cd2722960647d5f06@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -788,7 +788,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Operations Research
 DTSTART;VALUE=DATE:20261214
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:0589347d98f4408f499b886b5c7ec6e4b69733a6ae63e3ba32432b062b24c8cf@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam - secon
@@ -798,7 +798,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Operations Research
 DTSTART;TZID=Europe/Rome:20270212T143000
 DTEND;TZID=Europe/Rome:20270212T153000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:b3a8919897090209c04fd4b48ff960954a582aef14cec66f0e0e73f3ae142b8d@liuc-
  scraper.local
 DESCRIPTION:Prova: exam
@@ -806,7 +806,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Operations Research
 DTSTART;VALUE=DATE:20270122
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:953ee7ebde034501068b9dbb6869f2d0b56285759526ceba4c3077ac92a30eab@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -815,7 +815,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Operations Research
 DTSTART;VALUE=DATE:20270208
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:072002cd66a416ff77fbb3654451e88f2aa4b3b962e18c27ea3a358aa99b7d8a@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: exam.
@@ -824,7 +824,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Ricerca Operativa per le Applicazioni Industriali
 DTSTART;TZID=Europe/Rome:20261218T140000
 DTEND;TZID=Europe/Rome:20261218T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:dac220037e3450ce376abf18a48ed71563d657d32868ee89031b4851cb8446d4@liuc-
  scraper.local
 DESCRIPTION:Prova: 2a prova parziale
@@ -832,7 +832,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Ricerca Operativa per le Applicazioni Industriali
 DTSTART;VALUE=DATE:20261127
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e5d31e5d818f919df4224912ccd6ded5cb23277299850e449070cc238a4cbf95@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -842,7 +842,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Ricerca Operativa per le Applicazioni Industr
  iali
 DTSTART;VALUE=DATE:20261214
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:7bcc6e6345a7cfa10bf6c4614e693b7ef5bea71b49400c3306108bc81248ec52@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: 2a prova par
@@ -852,7 +852,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Ricerca Operativa per le Applicazioni Industriali
 DTSTART;TZID=Europe/Rome:20270122T140000
 DTEND;TZID=Europe/Rome:20270122T150000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a371778cfbbbcd58530f41e7fe542c91404df46a8e82ec06ba820cdf3f99c1e7@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -860,7 +860,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Ricerca Operativa per le Applicazioni Industriali
 DTSTART;VALUE=DATE:20270101
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:eb087de878dbacadbb62229212d6a4a364155fd865c7ca9d30b15f56c1fc98d6@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -870,7 +870,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Ricerca Operativa per le Applicazioni Industr
  iali
 DTSTART;VALUE=DATE:20270118
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:72d0304d628b0425b681e7333c687e6487ba5e4e4d7bf195f6c3a0483c03cbf6@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -879,7 +879,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Ricerca Operativa per le Applicazioni Industriali
 DTSTART;TZID=Europe/Rome:20270212T083000
 DTEND;TZID=Europe/Rome:20270212T093000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:e7158c535f87d08612207dc4f473456004adb8e3b4d08603b0f2b7d962868b68@liuc-
  scraper.local
 DESCRIPTION:Prova: appello
@@ -887,7 +887,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Ricerca Operativa per le Applicazioni Industriali
 DTSTART;VALUE=DATE:20270122
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:c7c401eba58c4839841b3942ab0a5717bb47eff9323b1197435af6d3a1aa5b14@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -897,7 +897,7 @@ BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Ricerca Operativa per le Applicazioni Industr
  iali
 DTSTART;VALUE=DATE:20270208
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:8a6e396ff6a3efce02953a37ce49bc32bb69f91059726897e65e7fe1e714b444@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello.
@@ -906,7 +906,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Servizi Energetici per l'industria
 DTSTART;TZID=Europe/Rome:20270113T090000
 DTEND;TZID=Europe/Rome:20270113T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:f49c0eae51b0221a3bd19fe829aeb1777c908495bbebaca7c02dc6b695b788b4@liuc-
  scraper.local
 DESCRIPTION:Prova: appello completo (a.a.25/26)
@@ -914,7 +914,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Servizi Energetici per l'industria
 DTSTART;VALUE=DATE:20261223
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:dc76e35930d7dcb415d9b41bcd4f59ba669daf4833bcbcde6910bd3410399fc6@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -923,7 +923,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Servizi Energetici per l'industria
 DTSTART;VALUE=DATE:20270109
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:ecd78308a2f88e9e9133d696a97157b7130a24c20b35fa622edeec9691b7019c@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: appello comp
@@ -933,7 +933,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Servizi Energetici per l'industria
 DTSTART;TZID=Europe/Rome:20270114T090000
 DTEND;TZID=Europe/Rome:20270114T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:827b149145c10bdd8da34ea3c13a6af3b36f661549bcf23ce145b6f3dc0fe83b@liuc-
  scraper.local
 DESCRIPTION:Prova: prova parziale SOLO 2° anno in corso
@@ -941,7 +941,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Servizi Energetici per l'industria
 DTSTART;VALUE=DATE:20261224
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:9ae66b7a10012a0e2511a46e44435f62a809515f7645b055344262e990ea9291@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -950,7 +950,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Servizi Energetici per l'industria
 DTSTART;VALUE=DATE:20270110
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:a931a6e29cc62898e81064dc52aa4b5d4984be6b6263491bae10d2f2677c222e@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: prova parzia
@@ -960,7 +960,7 @@ BEGIN:VEVENT
 SUMMARY:Esame Servizi Energetici per l'industria
 DTSTART;TZID=Europe/Rome:20270215T090000
 DTEND;TZID=Europe/Rome:20270215T100000
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:1b516d8d51e1a7c57ecd1ce6ba2e5d99c20c01a2865301e9b2496fc5c0db2c12@liuc-
  scraper.local
 DESCRIPTION:Prova: prova parziale SOLO 2° anno in corso
@@ -968,7 +968,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza DSA: Servizi Energetici per l'industria
 DTSTART;VALUE=DATE:20270125
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:13b803525a0b664dacb8644d448dfa26541a42c6fe46128abce795dbe9dd6051@liuc-
  scraper.local
 DESCRIPTION:Termine invio richiesta misure equipollenti (15 gg lavorativi)
@@ -977,7 +977,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scadenza Iscrizione: Servizi Energetici per l'industria
 DTSTART;VALUE=DATE:20270211
-DTSTAMP:20261128T000421Z
+DTSTAMP:20261128T075538Z
 UID:dc78a8dae0af99b7a51efe8bcc369549a092c5dfd7d9de7b1343e8d450187bad@liuc-
  scraper.local
 DESCRIPTION:Ultimo giorno per registrarsi all'appello. Prova: prova parzia
